@@ -1,0 +1,204 @@
+* {
+    font-family: "Verdana", "Geneva", sans-serif;
+}
+
+body {
+    font-family: Georgia;
+    background: url('http://folkukraine.com/img/st_img/12139905_913221028761906_7033731643049637095_o.jpg') no-repeat center center;
+}
+
+.main {
+    background-color: white;
+}
+
+#enter {
+    background: #ef4349;
+  background-image: -webkit-linear-gradient(top, #ef4349, #EC2028);
+  background-image: -moz-linear-gradient(top, #ef4349, #EC2028);
+  background-image: -ms-linear-gradient(top, #ef4349, #EC2028);
+  background-image: -o-linear-gradient(top, #ef4349, #EC2028);
+  background-image: linear-gradient(to bottom, #ef4349, #EC2028);
+  -webkit-border-radius: 6;
+  -moz-border-radius: 6;
+  border-radius: 6px;
+  text-shadow: 1px 1px 3px #666666;
+  color: #ffffff;
+  font-size: 16px;
+    margin-left: 50px;
+  padding: 2px 10px;
+  border: none;
+  text-decoration: none;
+}
+
+#enter:hover {
+  text-decoration: none;
+}
+
+#sitefinder {
+    border: solid 1px;
+  -webkit-border-radius: 25;
+  -moz-border-radius: 25;
+  border-radius: 25px;
+  -webkit-box-shadow: 1px -2px #666666;
+  -moz-box-shadow:  1px -2px #666666;
+  box-shadow:  1px -2px #666666;
+  color: #d1d1d1;
+  font-size: 12px;
+  background: #ffffff;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  width: 200px%;
+  height : 16px;
+}
+
+
+.liner {
+    background-color: #EC2028;
+    height: 5px;
+}
+
+.navigation {
+      background: #ffffff;
+      background-image: -webkit-linear-gradient(top, #ffffff, #EFEFEF);
+      background-image: -moz-linear-gradient(top, #ffffff, #EFEFEF);
+      background-image: -ms-linear-gradient(top, #ffffff, #EFEFEF);
+      background-image: -o-linear-gradient(top, #ffffff,#EFEFEF);
+      background-image: linear-gradient(to bottom, #ffffff, #EFEFEF);
+      -webkit-border-radius: 5;
+      -moz-border-radius: 5;
+      border-radius: 5px;
+      -webkit-box-shadow: 0px 1px 3px #CCCCCC;
+      -moz-box-shadow: 0px 1px 3px #CCCCCC;
+      box-shadow: 0px 1px 3px #CCCCCC;
+      font-family: Arial;
+      color: #000000;
+      font-size: 14px;
+      text-decoration: none;
+}
+
+#search {
+    width: 23px;
+    position: absolute;
+    right:0;
+    margin-right: 20px;
+}
+
+.slider {
+    background-color: aqua;
+}
+
+.dost {
+    width:100%;
+    text-align: left;
+}
+#top_header, .banner_left, .banner_right {
+    width: 100%;
+}
+
+#key {
+    width: 20px;
+    margin-right: 10px;
+}
+
+.navigation ul li{
+    display: inline-block;
+    padding: 6px;
+
+    
+}
+
+.navigation ul li a,visited {
+    display: block;
+}
+
+.navigation ul li:hover ul {
+    display: block;
+    padding: 0px;
+          background: #ffffff;
+      background-image: -webkit-linear-gradient(top, #ffffff, #d6d6d6);
+      background-image: -moz-linear-gradient(top, #ffffff, #d6d6d6);
+      background-image: -ms-linear-gradient(top, #ffffff, #d6d6d6);
+      background-image: -o-linear-gradient(top, #ffffff, #d6d6d6);
+      background-image: linear-gradient(to bottom, #ffffff, #d6d6d6);
+      -webkit-border-radius: 5;
+      -moz-border-radius: 5;
+      border-radius: 5px;
+      -webkit-box-shadow: 0px 1px 3px #666666;
+      -moz-box-shadow: 0px 1px 3px #666666;
+      box-shadow: 0px 1px 3px #666666;
+      font-family: Arial;
+      color: #000000;
+      font-size: 14px;
+      text-decoration: none;
+        z-index: 100;
+}
+
+.navigation ul ul li {
+    display: block;
+                margin: 0px;
+}
+.navigation ul ul {
+    display:none;
+    position: absolute;
+}
+
+#call_center {
+    width: 35px;
+}
+
+
+#callback {
+    background: white;
+    border: none;
+    position:absolute;
+    right: 0px;
+}
+
+.liner {
+    margin-top:  30px;
+}
+
+.finder {
+    -webkit-box-shadow: 1px 2px 1px #EFEFEF;
+      -moz-box-shadow:  1px 2px 1px #EFEFEF;
+      box-shadow: 1px 2px 1px #EFEFEF;
+    border-radius: 7px;
+}
+.finder .container {
+    margin-top: 20px
+}
+
+.next {
+    background: #666666;
+    width: 25px;
+    height: 25px;
+    border: none;
+}
+
+#next_tr {
+    width: 12px;
+    
+}
+
+.next:hover{
+    background: #EC2028;
+}
+
+.btn {
+    background: white;
+    border: none;
+    text-align: left;
+    width: 100%;
+}
+
+.dost:hover {
+    background: #EFEFEF;
+}
+
+hr {
+    width: 100%;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+}
