@@ -6,6 +6,9 @@
 
 body {
     background-image: url("http://igate.com.ua/upload/photo/0001/0001/0036/1891/93.jpg");
+    background-position: center top; 
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 
@@ -13,7 +16,7 @@ body {
 input, a, link, button {
     font-family: sans-serif, 'Helvetica', 'Arial';
     color: black;
-    font-size: 14px;
+    font-size: 13px;
 }
 
 /*reset*/
@@ -266,13 +269,12 @@ input {
       box-shadow: 0px 1px 3px #CCCCCC;
       font-family: Arial;
       color: #000000;
-      font-size: 14px;
       text-decoration: none;
     padding:0px;
 }
 .navigation ul li{
     display: inline-block;
-    padding: 6px;    
+    padding: 6px;
 }
 .navigation ul li a,visited {
     display: block;
