@@ -66,6 +66,30 @@ a:hover {
     width: 35px;
 }
 
+.tracker {
+    padding: 20px;
+    text-align: center;
+    color: #666666;
+}
+#next {
+    background: #666666;
+    height: 22px;
+    width: 22px;
+    border: none;
+    box-shadow: 1px 1px #EFEFEF;
+    position: relative;
+    left: -4px;
+    top:1px;
+}
+#next:hover{
+    background: #EC2028;
+}
+#next_tr {
+    width: 12px; 
+    position: relative;
+    top:-1px;
+}
+
 
 
 /*buttons*/
@@ -81,18 +105,18 @@ a:hover {
 
 
 /*vertical menu*/
-.finder, .news_archive {
-    -webkit-box-shadow: 1px 2px 1px #EFEFEF;
-      -moz-box-shadow:  1px 2px 1px #EFEFEF;
-      box-shadow: 1px 2px 1px #EFEFEF;
-    border-radius: 7px;
+.tracker, .news_archive {
+    -webkit-box-shadow: 1px 0px 1px #EFEFEF;
+      -moz-box-shadow:  1px 0px 1px #EFEFEF;
+      box-shadow: 1px 0px 1px #EFEFEF;
+    border-radius: 7px 7px 0px 0px;
     border-style: solid;
-    border-width: 1px 0px 1px 1px;
+    border-width: 1px 0px 0px 1px;
     border-color: #EFEFEF;
     margin-top: 15px;
     padding:10px;
 }
-.dost {
+.btn_dost, .btn_dost_last {
     -webkit-box-shadow: 0px 2px 1px #EFEFEF;
       -moz-box-shadow:  0px 2px 1px #EFEFEF;
       box-shadow: 0px 2px 1px #EFEFEF;
@@ -103,27 +127,46 @@ a:hover {
     padding:15px;
     width:100%;
     text-align: left;
+    text-decoration: underline;
+    color: #EC2028;
+}
+.btn_dost:hover {
+    background: #EFEFEF;
+}
+.buticon img {
+    position: absolute;
+    right:40px;
+}
+#calc {
+    top:123px;
+}
+#time {
+    right:38px;
+    top:175px;
+}
+#place{
+    top:220px;
+}
+#worktime {
+    right:37px;
+    top:275px;
+}
+#mess{
+    right:37px;
+    top:330px;
+}
+#last {
+    border-radius: 0px 0px 7px 7px;
 }
 /*vertical menu*/
 
 
 .btn-money {
-  background: #ef4349;
-  background-image: -webkit-linear-gradient(top, #ef4349, #EC2028);
-  background-image: -moz-linear-gradient(top, #ef4349, #EC2028);
-  background-image: -ms-linear-gradient(top, #ef4349, #EC2028);
-  background-image: -o-linear-gradient(top, #ef4349, #EC2028);
-  background-image: linear-gradient(to bottom, #ef4349, #EC2028);
-  -webkit-border-radius: 6;
-  -moz-border-radius: 6;
-  border-radius: 6px;
-  text-shadow: 1px 1px 3px #666666;
   color: #ffffff;
   font-size: 16px;
   padding: 2px 10px;
-  border: none;
-  text-decoration: none;
     width :100%;
+    border-radius:7px;
 }
 
 /*mobile button*/
@@ -276,6 +319,7 @@ a:hover {
 #image_slider img {
     width: 100%;
     height: auto;
+    border-radius: 7px;
 }
 .slide-bubble hr {
     width:20%;
@@ -284,7 +328,11 @@ a:hover {
 /*image slider*/
 
 
-
+/*news_slideshow*/
+.news_archive {
+    border-radius: 7px;
+    border-width: 1px;
+}
 
 
 
@@ -305,27 +353,11 @@ a:hover {
 
 
 
-.next {
-    background: #666666;
-    width: 25px;
-    height: 25px;
-    border: none;
-}
-
-#next_tr {
-    width: 12px;
-    
-}
-
-.next:hover{
-    background: #EC2028;
-}
 
 
 
-.dost:hover {
-    background: #EFEFEF;
-}
+
+
 
 hr {
     width: 100%;

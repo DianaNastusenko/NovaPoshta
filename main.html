@@ -153,24 +153,33 @@
         </ul>
       </nav>
       <div class="row">
-       <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-        <div class="finder">
-          <div class="container col-xs-12 col-sm-12 col-md-12 col-lg-12">
+       <div class="finder col-xs-4 col-sm-4 col-md-4 col-lg-4">
+        <div class="tracker col-xs-12 col-sm-12 col-md-12 col-lg-12">
             Відстежити
             <img id="search" src="img/search_cargo.png" alt="Search">
             <br>
             <input type="text" id="item_number" placeholder="Номер накладної" />
-            <button class="next"><img src="img/next.png" alt="#" id="next_tr">
+            <button type="submit" id="next" onclick="validation()"><img src="img/next.png" alt="#" id="next_tr">
             </button>
-
-        </div>
           <h6>Введіть номер накладної</h6>
           </div>
-          <button class="btn dost">Вартість доставки</button>
-          <button class="btn dost">Терміни доставки</button>
-          <button class="btn dost">Найближче відділення</button>
-          <button class="btn dost">Графік роботи відділень</button>
-          <button class="btn dost">Виклик кур'єра</button>
+          <div class="buticon">
+          <button class="btn btn_dost">
+          Вартість доставки
+          <img src="img/calc.png" alt="" id="calc"></button>
+          <button class="btn btn_dost">
+          <p>Терміни доставки</p>
+          <img src="img/time.png" alt="" id="time"></button>
+          <button class="btn btn_dost">
+          <div class="line"></div>Найближче відділення
+          <img src="img/place.png" alt="" id="place"></button>
+          <button class="btn btn_dost">
+          <div class="line"></div>Графік роботи відділень
+          <img src="img/worktime.png" alt="" id="worktime"></button>
+          <button class="btn btn_dost" id="last">
+          <div class="line"></div>Виклик кур'єра
+          <img src="img/mess.png" alt="" id="mess"></button>
+          </div>
         </div>
         <div class="slider col-xs-8 col-sm-8 col-md-8 col-lg-8" id="image_slider">
           <div id="slidercontent">
@@ -190,9 +199,12 @@
       </div>
       <div class="row">
         <div class="money col-xs-4 col-sm-4 col-md-4 col-lg-4">
-          <button type="button" class="btn-money">
+          <button type="button" class="btn btn_red_grad btn-money">
+          <div style="text-align:center">
           Грошові перекази
+          <br>
           миттєво з картки на картку
+          </div>
           </button>
           <h6>Завантажити 
             <a href="#" style="color:#FF0000" >мобільний додаток</a> для:
@@ -252,5 +264,6 @@
     <script src="https://use.fontawesome.com/e50d0406ff.js"></script>
     <script src="script/slider.js"></script>
     <script src="script/news_slideshow.js"></script>
+    <script src="script/submit.js"></script>
   </body>
 </html>
