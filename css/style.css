@@ -296,7 +296,6 @@ input {
       -moz-box-shadow: 0px 1px 3px #666666;
       box-shadow: 0px 1px 3px #666666;
       color: #000000;
-      font-size: 14px;
       text-decoration: none;
         z-index: 100;
 }
@@ -308,6 +307,8 @@ input {
 .navigation ul ul {
     display:none;
     position: absolute;
+    font-size: 10px;
+    margin:0px;
 }
 /*dropdown menu*/
 
