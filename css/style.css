@@ -24,7 +24,7 @@ input {
 
 
 /*text*/
-a:hover {
+.translate:hover {
     color: #EC2028;
     text-decoration: none;
 }
@@ -53,7 +53,7 @@ a:hover {
     margin-right: 20px;
 }
 
-#top_header{
+#top_header, #logo{
     width: 100%;
 }
 
@@ -160,7 +160,14 @@ a:hover {
 }
 /*vertical menu*/
 
+.btn_callback {
+    text-align: center;
+}
 
+
+.money {
+    padding:15px;
+}
 .btn-money {
   color: #ffffff;
   font-size: 16px;
@@ -199,6 +206,7 @@ a:hover {
 }
 .entering {
     margin-top: 16px;
+    text-align: center;
 }
 /*sign up and registration*/
 
@@ -332,6 +340,8 @@ a:hover {
 .news_archive {
     border-radius: 7px;
     border-width: 1px;
+    height: auto;
+    min-height: 180px;
 }
 
 
@@ -344,11 +354,6 @@ a:hover {
 
 
 
-#callback {
-    background: white;
-    border: none;
-
-}
 
 
 
