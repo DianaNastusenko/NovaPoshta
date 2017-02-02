@@ -4,6 +4,12 @@
     
 }
 
+body {
+    background-image: url("http://igate.com.ua/upload/photo/0001/0001/0036/1891/93.jpg");
+}
+
+
+
 input, a, link, button {
     font-family: sans-serif, 'Helvetica', 'Arial';
     color: black;
@@ -20,6 +26,9 @@ input, a, link, button {
 }
 input {
     font-size: 13px;
+}
+.main {
+    background-color: white;
 }
 
 
@@ -67,9 +76,14 @@ input {
 }
 
 .tracker {
-    padding: 20px;
+    padding: 40px;
     text-align: center;
     color: #666666;
+}
+#item_number {
+    margin:10px;
+    margin-right: 0px;
+    max-width: 135px;
 }
 #next {
     background: #666666;
@@ -138,22 +152,22 @@ input {
     right:40px;
 }
 #calc {
-    top:123px;
+    top:140px;
 }
 #time {
     right:38px;
-    top:175px;
+    top:195px;
 }
 #place{
-    top:220px;
+    top:253px;
 }
 #worktime {
     right:37px;
-    top:275px;
+    top:307px;
 }
 #mess{
     right:37px;
-    top:330px;
+    top:360px;
 }
 #last {
     border-radius: 0px 0px 7px 7px;
@@ -223,10 +237,11 @@ input {
   background: #ffffff;
   padding: 10px 20px 10px 20px;
   text-decoration: none;
-  width: 180px;
+  max-width: 155px;
   height : 16px;
-    margin-top: 16px;
+  margin-top: 16px;
 }
+
 
 
 
@@ -330,8 +345,19 @@ input {
     border-radius: 7px;
 }
 .slide-bubble hr {
+    width:100%;
+    margin-top: 0px;
+}
+.slide-bubble {
     width:20%;
     margin-top: 0px;
+}
+hr {
+    width: 100%;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
 }
 /*image slider*/
 
@@ -347,30 +373,32 @@ input {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-hr {
-    width: 100%;
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
-    margin-left: auto;
-    margin-right: auto;
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) and (max-width: 1119px) {
+    .dost_image {
+        display: none;
+    }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
