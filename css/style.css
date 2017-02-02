@@ -66,7 +66,7 @@ input {
     width: 100%;
 }
 
-#key {
+#img_key {
     width: 20px;
     margin-right: 10px;
 }
@@ -268,6 +268,7 @@ input {
       color: #000000;
       font-size: 14px;
       text-decoration: none;
+    padding:0px;
 }
 .navigation ul li{
     display: inline-block;
@@ -276,10 +277,11 @@ input {
 .navigation ul li a,visited {
     display: block;
 }
+
 .navigation ul li:hover ul {
     display: block;
     padding: 0px;
-          background: #ffffff;
+      background: #ffffff;
       background-image: -webkit-linear-gradient(top, #ffffff, #d6d6d6);
       background-image: -moz-linear-gradient(top, #ffffff, #d6d6d6);
       background-image: -ms-linear-gradient(top, #ffffff, #d6d6d6);
@@ -291,7 +293,6 @@ input {
       -webkit-box-shadow: 0px 1px 3px #666666;
       -moz-box-shadow: 0px 1px 3px #666666;
       box-shadow: 0px 1px 3px #666666;
-      font-family: Arial;
       color: #000000;
       font-size: 14px;
       text-decoration: none;
@@ -300,6 +301,7 @@ input {
 .navigation ul ul li {
     display: block;
     margin: 0px;
+    padding: 10px;
 }
 .navigation ul ul {
     display:none;
