@@ -5,7 +5,8 @@ var arrLang = {
         'enter_in':'Вхід',
         'and':'і',
         'registr':'Реєстрація',
-        'help_center':'Центр підтримки',
+        'center':'Центр',
+        'help':'підтримки',
         'clients':'клієнтів',
             
         /*navigation*/
@@ -95,7 +96,8 @@ var arrLang = {
         'enter_in':'Log on',
         'and':'and',
         'registr':'Registration',
-        'help_center':'Customer support',
+        'center':'Customer',
+        'help':'support',
         'clients':'center',
         
         /*navigation*/
@@ -185,7 +187,8 @@ var arrLang = {
         'enter_in':'Вход',
         'and':'и',
         'registr':'Регистрация',
-        'help_center':'Центр поддержки',
+        'center':'Центр',
+        'help':'поддержки',
         'clients':'клиентов',
             
         /*navigation*/
